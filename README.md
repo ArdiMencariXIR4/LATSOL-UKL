@@ -1,1 +1,10 @@
 # LATSOL-UKL
+
+npm run start > package.json "node index.js" > ngerun semuanya
+
+localhost 8000 api/ >users>     get > mengambil semua user / id tertentu
+                                put > mengedit user id tertentu
+                                post> membuat user baru
+                    >auth/login post> login ke user tertentu berdasarkan usn dan pw
+                    >attendance post> presensi seekor user
+                    >attendance/summary/id?month=tahunbulan get> mengambil rekapitulasi kehadiran user tergantung id
